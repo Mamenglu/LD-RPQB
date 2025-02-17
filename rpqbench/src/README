@@ -1,0 +1,33 @@
+*******************************************************************
+************ THE RPQBench BENCHMARK ***************
+*******************************************************************
+
+=================================
+******* TABLE OF CONTENTS *******
+=================================
+=  1. Compiling the Source Code =
+=  2. Running the Generator     =
+=  3. Compile Options           =
+=================================
+
+
+1. Compiling the Source Code 
+----------------------------
+We provide a Makefile for compiling the project. All you need is a standard installation of build tools such as g++ and make.
+
+To compile from scratch, simply type 
+
+> make
+
+and wait for the executable rpqbench_gen being build.
+
+
+2. Running the Data Generator 
+-----------------------------
+For instructions on how to run the data generator and command line options, see the README file at rpqbench/bin/README. 
+
+
+3. Compile Options
+------------------
+It is advisable not to use optimization level -O3, as it might affect the integrity of the generated data due to some non-semantics-preserving floating point optimizations at this level.
+

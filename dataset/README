@@ -1,0 +1,20 @@
+*******************************************************************
+************ THE RPQBench BENCHMARK ***************
+*******************************************************************
+
+=================================
+******* TABLE OF CONTENTS *******
+=================================
+=  1. Introduction              =
+=  2. Getting Started           =
+=================================
+
+1. Introduction 
+---------------
+This dataset directory contains a variety of .n3 files generated for the purpose of benchmarking RPQ (Regular Path Queries) on different graph databases. These files simulate different sizes of datasets to provide a robust test environment for RPQ algorithms.
+
+Each .n3 file represents a distinct dataset size, allowing for comprehensive performance testing across different database implementations. This enables users to evaluate the scalability and efficiency of RPQ engines under diverse conditions.
+
+2. Getting Started
+------------------
+The datasets contained in this folder are formatted in .n3 (Notation3), which is a concise and readable format for representing RDF (Resource Description Framework) data. Depending on your graph database, the method to import these .n3 files may vary.
