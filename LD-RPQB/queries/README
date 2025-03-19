@@ -1,0 +1,15 @@
+*******************************************************************
+************ THE RPQBench BENCHMARK ***************
+*******************************************************************
+
+=================================
+******* TABLE OF CONTENTS *******
+=================================
+=  1. The Benchmark Queries     =
+=================================
+
+1. The Benchmark Queries
+---------------
+This directory contains the benchmark queries for RPQBench. Each query is contained
+in an individual file of the form 'q<i>.sparql', which also contains
+the prefix definition for the respective query.

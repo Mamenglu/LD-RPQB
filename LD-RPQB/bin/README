@@ -1,0 +1,47 @@
+*******************************************************************
+************ THE RPQBench BENCHMARK ***************
+*******************************************************************
+
+=================================
+******* TABLE OF CONTENTS *******
+=================================
+=  1. The Binaries              =
+=  2. Command Line Options      =
+=================================
+
+1. The Binaries 
+---------------
+We deliver a precompiled version of the data generator for Linux, namely
+
+- ./rpqbench_gen
+
+In addition, this directory contains three text files familynames.txt,
+givennames.txt, and titleword.txt. These files contain random keywords
+and are used as a basis for data generation and are required. To run
+the data generator with standard options (50000 RDF triples will be
+generated), simply type
+
+> ./rpqbench_gen (under Linux)
+
+from a shell. The output format is RDF in simple NTriples syntax.
+
+The data generator is platform-independent (in particular, files generated under
+Linux are identical modulo line break encoding) and does not use any
+external library, thus the binaries should work on any standard system. If you run
+into any problems with the binaries, you may consider compiling the generator
+from sources. More information on compilation can be found in the README
+file in the src directory (rpqbench/src/README).
+
+
+2. Command Line Options 
+-----------------------
+Usage: ./rpqbench_gen [BREAK_CONDITION] [OUTFILE], where
+
+BREAK_CONDITION (choose one of the following):
+-t n            -> produces n triples [DEFAULT, with n=50000 triples]
+-s n            -> produces n KB of data
+OUTFILE: name of the output file [DEFAULT='rpqbench.n3']
+
+The current version number is plotted right at the beginning, before data
+generation starts. 
+

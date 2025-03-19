@@ -1,0 +1,31 @@
+*******************************************************************
+************ THE RPQBench BENCHMARK ***************
+*******************************************************************
+
+
+=================================
+******* TABLE OF CONTENTS *******
+=================================
+=  1. Introduction              =
+=  2. Getting Started           =
+=================================
+
+
+1. Introduction 
+---------------
+RPQBench is a Performance Benchmark for the SPARQL query language, focusing on Recursive Path Queries (RPQs) which are crucial in many graph-based applications. The benchmark comprises both a data generator for generating arbitrarily large, synthetic graph datasets, and a set of SPARQL benchmark queries, which cover a variety of typical recursive query patterns and RDF access scenarios.
+
+RPQBench is a research project from TianJin University and aims to provide a foundation for comparing RPQ optimization approaches in a standardized benchmark setting. Additionally, it serves to compare SPARQL engines, identify shortcomings in current implementations, and help optimize SPARQL engine performance.
+
+2. Getting Started
+------------------
+The following subdirectories might be available.
+
+rpqbench
+	|
+	|-- ./src contains the source code of the data generator
+	|-- ./bin contains precompiled binaries of the data generator for Linux
+	|-- ./queries contains the benchmark queries
+
+If you are primarily interested in using the benchmark, you should start with the precompiled binaries for Linux. Further details on each component can be found in the README files in the respective directories.
+
